@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import RestroCard from '../RestroCard/Restrocard';
 import './Body.css';
-import {, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import filterByRating from "./filterByRating";
 import filterBySearch from "./filterBySearch";
 import Shimmer from './Shimmer';
